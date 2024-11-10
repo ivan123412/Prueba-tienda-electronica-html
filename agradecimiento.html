@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por Contactarnos - Tienda de Electrónica</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="styles_contacto.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="contenedor-encabezado">
+            <input type="text" placeholder="Buscar productos...">
+            <a href="carrito.html" class="enlace-carrito">
+                <img src="imagenes/carrito1.png" alt="Carrito" class="icono-carrito" data-gif="gifs/carrito1.gif" data-gif2="gifs/carrito2.gif">
+            </a>            
+            <a href="noencontrado.html" class="buscador">
+                <img src="imagenes/buscar.png" alt="Buscar" class="buscador">
+            </a>
+            <a href="opciones.html" class="opciones">
+                <img src="imagenes/opciones.png" alt="Opciones" class="opciones">
+            </a>
+            <a href="mensajes.html" class="mensajes">
+                <img src="imagenes/mensajes.png" alt="Mensajes" class="mensajes1" data-gif="gifs/mensajes1.gif" data-gif2="gifs/mensajes2.gif">
+            </a>
+            <a href="iniciar_sesion.html" class="iniciar">
+                <img src="imagenes/usuario.png" alt="Iniciar" class="iniciar">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="todo.html">Todo</a>
+        <a href="celulares.html">Celulares</a>
+        <a href="videojuegos.html">Videojuegos</a>
+        <a href="electrodo.html">Electrodomésticos</a>
+        <a href="computadoras.html">Computadoras</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="cuenta.html">Cuenta</a>
+    </nav>
+
+    <main class="agradecimiento fade-in">
+        <h1>¡Gracias por contactarnos!</h1>
+        <p>Hemos recibido su consulta y le responderemos lo más pronto posible.</p>
+        <p>Si tiene más preguntas, no dude en volver a contactarnos.</p>
+    </main>
+
+    <footer>
+        <div class="contenido-pie">
+
+        </div>
+        <p>Copyright © 1999-2024. Electrónica Jacobo, Nayarit, México</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const main = document.querySelector('main.agradecimiento');
+            main.classList.add('fade-in');
+
+            setTimeout(function() {
+                main.classList.add('fade-out');
+                setTimeout(function() {
+                    window.location.href = 'index.html';
+                }, 500);
+            }, 1500);
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>

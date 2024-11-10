@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrónica Jacobo</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <input type="text" placeholder="Buscar productos...">
+            <a href="../carrito.html" class="enlace-carrito">
+                <img src="../imagenes/carrito1.png" alt="Carrito" class="icono-carrito" data-gif="../gifs/carrito1.gif" data-gif2="../gifs/carrito2.gif">
+            </a>            
+            <a href="../noencontrado.html" class="buscador">
+                <img src="../imagenes/buscar.png" alt="Buscar" class="buscador">
+            </a>
+            <a href="../opciones.html" class="opciones">
+                <img src="../imagenes/opciones.png" alt="Opciones" class="opciones">
+            </a>
+            <a href="../mensajes.html" class="mensajes">
+                <img src="../imagenes/mensajes.png" alt="Mensajes" class="mensajes1" data-gif="../gifs/mensajes1.gif" data-gif2="../gifs/mensajes2.gif">
+            </a>
+            <a href="../iniciar_sesion.html" class="iniciar">
+                <img src="../imagenes/usuario.png" alt="Iniciar" class="iniciar">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../ofertas.html">Ofertas</a>
+        <a href="../todo.html">Todo</a>
+        <a href="../celulares.html">Celulares</a>
+        <a href="../videojuegos.html">Videojuegos</a>
+        <a href="../electrodo.html">Electrodomésticos</a>
+        <a href="../computadoras.html">Computadoras</a>
+        <a href="../contacto.html">Contacto</a>
+        <a href="../cuenta.html">Cuenta</a>
+    </nav>
+
+    <section class="contenedor-especificaciones">
+        <div class="imagen-producto">
+            <img src="../imagenes/mac1.png" alt="Apple MacBook Air 13.6" data-pagina="articulos/mac1.html">
+        </div>
+        <div class="detalles-producto">
+            <h1 class="titulo-producto">Apple MacBook Air 13.6" - 512 GB SSD - Gris Espacial</h1>
+            <p class="precio-antiguo">Precio antiguo: <span class="tachado">$32,999.00</span></p>
+            <p class="precio-actual">Precio actual: $29,999.00</p>
+            <p class="porcentaje-descuento">Descuento: <span class="rojo">9%</span></p>
+            <p class="envio-disponibilidad">Envío estimado: 3-5 días hábiles</p>
+            <p class="envio-disponibilidad">Envío a Ixtlan del Rio, Nayarit</p>
+            <p class="stock-disponibilidad">Stock disponible: <span class="stock">En existencia</span></p>
+            <button class="boton-comprar" onclick="comprarProducto(this)">Comprar ahora</button>
+            <button class="boton-carrito" onclick="agregarAlCarrito(this)">Añadir al Carrito</button>
+        </div>
+    </section>
+    
+    <section class="tabla-especificaciones">
+        <h2>Especificaciones del Producto</h2>
+        <table>
+            <tr>
+                <td>Procesador</td>
+                <td>Apple M2</td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td>8 GB (configurable hasta 24 GB)</td>
+            </tr>
+            <tr>
+                <td>Almacenamiento</td>
+                <td>512 GB SSD (expansible)</td>
+            </tr>
+            <tr>
+                <td>Pantalla</td>
+                <td>13.6" Retina (2560 x 1664)</td>
+            </tr>
+            <tr>
+                <td>Gráficos</td>
+                <td>GPU de 8 núcleos</td>
+            </tr>
+            <tr>
+                <td>Conectividad</td>
+                <td>Wi-Fi 6, Bluetooth 5.0</td>
+            </tr>
+            <tr>
+                <td>Puertos</td>
+                <td>2 Thunderbolt / USB 4</td>
+            </tr>
+            <tr>
+                <td>Dimensiones</td>
+                <td>30.41 x 21.24 x 1.16 cm</td>
+            </tr>
+            <tr>
+                <td>Peso</td>
+                <td>1.24 kg</td>
+            </tr>
+            <tr>
+                <td>Sistema Operativo</td>
+                <td>macOS Ventura</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <div class="contenido-pie">
+            <div class="seccion-pie">
+                <h4>Electrónicos Jacobo's</h4>
+                <p>Nuestras redes sociales:</p>
+                <div class="sociales-pie">
+                    <img src="../imagenes/google.png" alt="Google">
+                    <img src="../imagenes/facebook.png" alt="Facebook">
+                    <img src="../imagenes/instagram.png" alt="Instagram">
+                    <img src="../imagenes/youtube.png" alt="YouTube">
+                    <img src="../imagenes/whatsapp.png" alt="WhatsApp">
+                </div>
+            </div>
+            <div class="seccion-pie">
+                <h4>Ayuda</h4>
+                <p><a href="#">Atención al cliente</a></p>
+                <p><a href="#">Ayuda al cliente</a></p>
+                <p><a href="#">Gestión de datos</a></p>
+                <p><a href="#">Gestión de contenido</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Métodos de pago</h4>
+                <p><a href="#">Gestionar métodos de pago</a></p>
+                <p><a href="#">Pago a meses</a></p>
+                <p><a href="#">Pago en efectivo</a></p>
+                <p><a href="#">Tarjetas de regalo</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Conócenos</h4>
+                <p><a href="#">Información corporativa</a></p>
+                <p><a href="#">Departamento de prensa</a></p>
+                <p><a href="#">Alertas de revisión</a></p>
+                <p><a href="#">Contrato de seguridad</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Trabaja con nosotros</h4>
+                <p><a href="#">Vender tus productos</a></p>
+                <p><a href="#">Suminístrate con nosotros</a></p>
+                <p><a href="#">Programa de afiliados</a></p>
+                <p><a href="#">Protege y desarrolla tu marca</a></p>
+            </div>
+        </div>
+        <p>Copyright © 1999-2024. Electrónica Jacobo, Nayarit, México</p>
+    </footer>
+    <script src="../scripts.js"></script>
+</body>
+</html>

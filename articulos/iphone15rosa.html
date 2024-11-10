@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 15 - Electrónica Jacobo</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <input type="text" placeholder="Buscar productos...">
+            <a href="../carrito.html" class="enlace-carrito">
+                <img src="../imagenes/carrito1.png" alt="Carrito" class="icono-carrito" data-gif="../gifs/carrito1.gif" data-gif2="../gifs/carrito2.gif">
+            </a>            
+            <a href="../noencontrado.html" class="buscador">
+                <img src="../imagenes/buscar.png" alt="Buscar" class="buscador">
+            </a>
+            <a href="../opciones.html" class="opciones">
+                <img src="../imagenes/opciones.png" alt="Opciones" class="opciones">
+            </a>
+            <a href="../mensajes.html" class="mensajes">
+                <img src="../imagenes/mensajes.png" alt="Mensajes" class="mensajes1" data-gif="../gifs/mensajes1.gif" data-gif2="../gifs/mensajes2.gif">
+            </a>
+            <a href="../iniciar_sesion.html" class="iniciar">
+                <img src="../imagenes/usuario.png" alt="Iniciar" class="iniciar">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../ofertas.html">Ofertas</a>
+        <a href="../todo.html">Todo</a>
+        <a href="../celulares.html">Celulares</a>
+        <a href="../videojuegos.html">Videojuegos</a>
+        <a href="../electrodo.html">Electrodomésticos</a>
+        <a href="../computadoras.html">Computadoras</a>
+        <a href="../contacto.html">Contacto</a>
+        <a href="../cuenta.html">Cuenta</a>
+    </nav>
+    <section class="contenedor-especificaciones">
+        <div class="imagen-producto">
+            <img src="../imagenes/iphone15rosa.png" alt="iPhone 15 Rosa" data-pagina="articulos/iphone14amarillo.html">
+        </div>
+        <div class="detalles-producto">
+            <h1 class="titulo-producto">iPhone 15 (128 GB) - Color Rosa</h1>
+            <p class="precio-producto">$14,999.00</p>
+            <p class="envio-disponibilidad">Envío estimado: 3-5 días hábiles</p>
+            <p class="envio-disponibilidad">Envío a Ixtlan del Rio, Nayarit</p>
+            <p class="stock-disponibilidad">Stock disponible: <span class="stock">En existencia</span></p>
+            <button class="boton-comprar" onclick="comprarProducto(this)">Comprar ahora</button>
+            <button class="boton-carrito" onclick="agregarAlCarrito(this)">Añadir al Carrito</button>
+        </div>
+    </section>
+    
+    <section class="tabla-especificaciones">
+        <h2>Especificaciones del Producto</h2>
+        <table>
+            <tr>
+                <td>Pantalla</td>
+                <td>6.1 pulgadas, OLED Super Retina XDR</td>
+            </tr>
+            <tr>
+                <td>Resolución</td>
+                <td>2556 x 1179 píxeles</td>
+            </tr>
+            <tr>
+                <td>Procesador</td>
+                <td>Chip A16 Bionic</td>
+            </tr>
+            <tr>
+                <td>Cámaras</td>
+                <td>Sistema de cámara dual de 48 MP (gran angular, ultra gran angular)</td>
+            </tr>
+            <tr>
+                <td>Almacenamiento</td>
+                <td>128 GB</td>
+            </tr>
+            <tr>
+                <td>Batería</td>
+                <td>Hasta 20 horas de reproducción de video</td>
+            </tr>
+            <tr>
+                <td>Conectividad</td>
+                <td>5G, Wi-Fi 6E, Bluetooth 5.3</td>
+            </tr>
+            <tr>
+                <td>Seguridad</td>
+                <td>Face ID</td>
+            </tr>
+            <tr>
+                <td>Material</td>
+                <td>Aluminio de grado aeroespacial</td>
+            </tr>
+            <tr>
+                <td>Resistencia</td>
+                <td>Resistente al agua y polvo (IP68)</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <div class="contenido-pie">
+            <div class="seccion-pie">
+                <h4>Electrónicos Jacobo's</h4>
+                <p>Nuestras redes sociales:</p>
+                <div class="sociales-pie">
+                    <img src="../imagenes/google.png" alt="Google">
+                    <img src="../imagenes/facebook.png" alt="Facebook">
+                    <img src="../imagenes/instagram.png" alt="Instagram">
+                    <img src="../imagenes/youtube.png" alt="YouTube">
+                    <img src="../imagenes/whatsapp.png" alt="WhatsApp">
+                </div>
+            </div>
+            <div class="seccion-pie">
+                <h4>Ayuda</h4>
+                <p><a href="#">Atención al cliente</a></p>
+                <p><a href="#">Ayuda al cliente</a></p>
+                <p><a href="#">Gestión de datos</a></p>
+                <p><a href="#">Gestión de contenido</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Métodos de pago</h4>
+                <p><a href="#">Gestionar métodos de pago</a></p>
+                <p><a href="#">Pago a meses</a></p>
+                <p><a href="#">Pago en efectivo</a></p>
+                <p><a href="#">Tarjetas de regalo</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Conócenos</h4>
+                <p><a href="#">Información corporativa</a></p>
+                <p><a href="#">Departamento de prensa</a></p>
+                <p><a href="#">Alertas de revisión</a></p>
+                <p><a href="#">Contrato de seguridad</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Trabaja con nosotros</h4>
+                <p><a href="#">Vender tus productos</a></p>
+                <p><a href="#">Suminístrate con nosotros</a></p>
+                <p><a href="#">Programa de afiliados</a></p>
+                <p><a href="#">Protege y desarrolla tu marca</a></p>
+            </div>
+        </div>
+        <p>Copyright © 1999-2024. Electrónica Jacobo, Nayarit, México</p>
+    </footer>
+    <script src="../scripts.js"></script>
+</body>
+</html>

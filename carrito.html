@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="contenedor-encabezado">
+            <input type="text" placeholder="Buscar productos...">
+            <a href="carrito.html" class="enlace-carrito">
+                <img src="imagenes/carrito1.png" alt="Carrito" class="icono-carrito" data-gif="gifs/carrito1.gif" data-gif2="gifs/carrito2.gif">
+            </a>            
+            <a href="noencontrado.html" class="buscador">
+                <img src="imagenes/buscar.png" alt="Buscar" class="buscador">
+            </a>
+            <a href="opciones.html" class="opciones">
+                <img src="imagenes/opciones.png" alt="Opciones" class="opciones">
+            </a>
+            <a href="mensajes.html" class="mensajes">
+                <img src="imagenes/mensajes.png" alt="Mensajes" class="mensajes1" data-gif="gifs/mensajes1.gif" data-gif2="gifs/mensajes2.gif">
+            </a>
+            <a href="iniciar_sesion.html" class="iniciar">
+                <img src="imagenes/usuario.png" alt="Iniciar" class="iniciar">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="todo.html">Todo</a>
+        <a href="celulares.html">Celulares</a>
+        <a href="videojuegos.html">Videojuegos</a>
+        <a href="electrodo.html">Electrodomésticos</a>
+        <a href="computadoras.html">Computadoras</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    
+    <main>
+        <div class="carrito-compras">
+            <h1 class="titulo-carrito">Tu carrito de compras</h1>
+            <div class="lista-productos">
+                <div class="producto">
+                    <img src="imagenes/iphone12.png" alt="iPhone 12" class="imagen-producto">
+                    <div class="detalles-producto">
+                        <h2 class="nombre-producto">Apple iPhone 12</h2>
+                        <p class="cantidad-producto">Apple iPhone 12 (64 GB) - Blanco</p>
+                        <div class="cantidad-control">
+                            <button class="botonesmasymenos">-</button>
+                            <span class="cantidad">1</span>
+                            <button class="botonesmasymenos">+</button>
+                        </div>                              
+                        <p class="precio-producto">Precio: $12,999</p>
+                        <button class="botoneliminar">Eliminar</button>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="imagenes/macbook1.png" alt="macbook Air" class="imagen-producto">
+                    <div class="detalles-producto">
+                        <h2 class="nombre-producto">Apple MacBook Air</h2>
+                        <p class="cantidad-producto">Apple MacBook Air (13 pulgadas, Chip M1, 256 GB de SSD, 8 GB de RAM) - Gris espacial</p>
+                        <div class="cantidad-control">
+                            <button class="botonesmasymenos">-</button>
+                            <span class="cantidad">1</span>
+                            <button class="botonesmasymenos">+</button>
+                        </div>                              
+                        <p class="precio-producto">Precio: $13,299.99</p>
+                        <button class="botoneliminar">Eliminar</button>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="imagenes/ipadpro.png" alt="iPad Pro" class="imagen-producto">
+                    <div class="detalles-producto">
+                        <h2 class="nombre-producto">Apple iPad Pro</h2>
+                        <p class="cantidad-producto">Apple iPad Pro M4 5th generation Negro Espacial 8GB 256GB 11"</p>
+                        <div class="cantidad-control">
+                            <button class="botonesmasymenos">-</button>
+                            <span class="cantidad">1</span>
+                            <button class="botonesmasymenos">+</button>
+                        </div>
+                        <p class="precio-producto">Precio: $11,199.99</p>
+                        <button class="botoneliminar">Eliminar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/watchs10.png" alt="Apple Watch" class="imagen-producto">
+                    <div class="detalles-producto">
+                        <h2 class="nombre-producto">Apple Watch</h2>
+                        <p class="cantidad-producto">Apple Watch Series 10 aluminio negro azabache de 46 mm</p>
+                        <div class="cantidad-control">
+                            <button class="botonesmasymenos">-</button>
+                            <span class="cantidad">1</span>
+                            <button class="botonesmasymenos">+</button>
+                        </div>
+                        <p class="precio-producto">Precio: $10,999.99</p>
+                        <button class="botoneliminar">Eliminar</button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="total">Total: $35,499.97</h2>
+            <a href="iniciar_sesion.html" class="boton-comprar">Proceder al Pago</a>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="contenido-pie">
+            <div class="seccion-pie">
+                <h4>Electrónicos Jacobo's</h4>
+                <p>Nuestras redes sociales:</p>
+                <div class="sociales-pie">
+                    <img src="imagenes/google.png" alt="Google">
+                    <img src="imagenes/facebook.png" alt="Facebook">
+                    <img src="imagenes/instagram.png" alt="Instagram">
+                    <img src="imagenes/youtube.png" alt="YouTube">
+                    <img src="imagenes/whatsapp.png" alt="WhatsApp">
+                </div>
+            </div>
+            <div class="seccion-pie">
+                <h4>Ayuda</h4>
+                <p><a href="#">Atención al cliente</a></p>
+                <p><a href="#">Ayuda al cliente</a></p>
+                <p><a href="#">Gestión de datos</a></p>
+                <p><a href="#">Gestión de contenido</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Métodos de pago</h4>
+                <p><a href="#">Gestionar métodos de pago</a></p>
+                <p><a href="#">Pago a meses</a></p>
+                <p><a href="#">Pago en efectivo</a></p>
+                <p><a href="#">Tarjetas de regalo</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Conócenos</h4>
+                <p><a href="#">Información corporativa</a></p>
+                <p><a href="#">Departamento de prensa</a></p>
+                <p><a href="#">Alertas de revisión</a></p>
+                <p><a href="#">Contrato de seguridad</a></p>
+            </div>
+            <div class="seccion-pie">
+                <h4>Trabaja con nosotros</h4>
+                <p><a href="#">Vender tus productos</a></p>
+                <p><a href="#">Suminístrate con nosotros</a></p>
+                <p><a href="#">Programa de afiliados</a></p>
+                <p><a href="#">Protege y desarrolla tu marca</a></p>
+            </div>
+        </div>
+        <p>Copyright © 1999-2024. Electrónica Jacobo, Nayarit, México</p> 
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
